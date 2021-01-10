@@ -31,6 +31,7 @@ export default {
     '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/moment',
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
@@ -41,4 +42,9 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {},
+
+  moment: {
+    defaultLocale: 'da',
+    locales: ['da'],
+  },
 }
